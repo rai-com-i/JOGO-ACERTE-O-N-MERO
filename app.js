@@ -8,7 +8,7 @@ function exibirTextoNatela(tag, texto){
 
 function exibirMensagemInicial(){
     exibirTextoNatela('h1', 'Jogo do número secreto');
-    exibirTextoNatela('p', 'Escolha um número entre 1 e 10');
+    exibirTextoNatela('p', 'Escolha um número entre 1 e 100');
 }
 
 exibirMensagemInicial();
@@ -37,7 +37,7 @@ function verificarChute(){
 }
 
 function gerarNumeroAleatorio(){
-    return parseInt(Math.random() * 10 + 1)
+    return parseInt(Math.random() * 100 + 1)
 }
 
 function limparCampo(){
